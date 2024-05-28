@@ -78,14 +78,14 @@ export default function Home() {
           <div className=" basis-1/4 flex-1 " >
             {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-              <h3 className="text-center " >Project 4</h3>
+              <h3 className="text-center " >Project 5</h3>
             </div>
           </div>
           
           <div className=" basis-1/4 flex-1 " >
             {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-              <h3 className="text-center " >Project 4</h3>
+              <h3 className="text-center " >Project 6</h3>
             </div>
           </div>
         </div>
