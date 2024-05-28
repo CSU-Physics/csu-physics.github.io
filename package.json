@@ -1,9 +1,12 @@
 {
   "name": "portfolio",
+  "homepage": "https://csu-physics.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,6 +19,7 @@
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
+    "sharp": "^0.33.4",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
