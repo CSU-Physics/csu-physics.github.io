@@ -2,8 +2,8 @@ import Image from "next/image";
 import photo from "./photo.png"
 export default function Home() {
   return (
-    <main className=" bg-whire px-10 md:px-20 lg:px-40">
-      <section className=" h-screen mb-10">
+    <main className=" bg-white px-10 md:px-20 lg:px-40">
+      <section className="">
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className=" text-xl" >CSU-Physics</h1>
           <ul className="flex items-center">
@@ -25,12 +25,12 @@ export default function Home() {
             numquam
           </p>
         </div>
-        <div className="relative mx-auto  w-80 h-60 mt-4 overflow-hidde md:h-96 md:w-96" >
+        <div className=" relative mx-auto  w-80 h-60 mt-4 overflow-hidde md:h-96 md:w-96" >
           <Image src={photo} layout="" objectFit="" />
         </div>
       </section>
 
-      <section className="mt-40" id="Projects" >
+      <section className="h-screen mt-0 " id="Projects" >
         <div>
           <h3 className="text-3xl py-1" >Projects</h3>
           <p className="text-md py-2 leading-0 text-gray-800 " >
