@@ -64,7 +64,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+          {/* s */}
           {/* <div className=" flex flex-row justify-center w-full h-full bg-red-500 " >
               <h1 className=" text-white" >Footer</h1>
           </div> */}
