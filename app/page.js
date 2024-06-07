@@ -1,8 +1,11 @@
 import Image from "next/image";
 import photo from "./photo.png"
+import StatCounter from 'statcounter'
+import photo1 from "./Binding_energy_calculator.jpeg"
 export default function Home() {
   return (
     <main className=" bg-white px-10 md:px-20 lg:px-40">
+      <StatCounter sc_project={13006461} sc_security="3ab8d0c3" />
       <section className="">
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className=" text-xl" >CSU-Physics</h1>
@@ -18,16 +21,19 @@ export default function Home() {
         </nav>
         <div className="text-center p-10" >
           <h2 className="text-5xl py-2 text-[#6f263d] font-medium  md:text-6xl" >Central State University</h2>
-          <h3 className="text-2xl py-2 md:text-3xl" >Physics's Department</h3>
-          <p className="text-md py-5 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto" >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam
+          <div className=" relative mx-auto  w-80 h-60 mt-4 overflow-hidde md:h-96 md:w-96" >
+            <Image src={photo} layout="" objectFit="" />
+          </div>
+          <h3 className="text-2xl py-2 md:text-3xl" >Computational Physics Projects</h3>
+          <p className=" text-md py-2 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto" >
+            Welcome to the Computational Physics Interactive Projects Portal at Central State University!
+            This platform showcases a diverse range of projects that demonstrate the innovative applications of computational physics.
+            <br/>Each project is designed to be interactive, serving both educational purposes and enhancing public knowledge.
+            For more detailed information and to engage with these interactive projects, please click on the name of each project listed below.
+            Explore, learn, and discover the exciting world of computational physics with us at Central State University!
           </p>
         </div>
-        <div className=" relative mx-auto  w-80 h-60 mt-4 overflow-hidde md:h-96 md:w-96" >
-          <Image src={photo} layout="" objectFit="" />
-        </div>
+
       </section>
 
       <section className="h-screen mt-0 " id="Projects" >
@@ -46,21 +52,26 @@ export default function Home() {
           <div className=" basis-1/4 flex-1 " >
             {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-              <a href="https://csu-physics.github.io/binding-energy/" target="new" className="text-center " >Binding Energy Calculator</a>
+              {/* <Image src={photo1} className=" " /> */}
+              <a href="https://csu-physics.github.io/binding-energy/" target="new" className="text-center " >Nuclear Binding Energy Calculator</a>
             </div>
           </div>
 
           <div className=" basis-1/4 flex-1 " >
-            {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
-            <div className="bg-red-500 h-[380px] w-full" >
+            <div className="bg-white h-[380px] w-full" >
               <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-                <h3 className="text-center " >Project 2</h3>
+                <h3 className="text-center text-pretty  " >Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.</h3>
               </div>
             </div>
           </div>
+          
+          {/* <div className=" flex flex-row justify-center w-full h-full bg-red-500 " >
+              <h1 className=" text-white" >Footer</h1>
+          </div> */}
+          {/* Nuclear Binding Energy Calculator
+Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D. */}
 
-          <div className=" basis-1/4 flex-1 " >
-            {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
+          {/* <div className=" basis-1/4 flex-1 " >
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
               <h3 className="text-center " >Project 3</h3>
             </div>
@@ -68,26 +79,24 @@ export default function Home() {
 
 
           <div className=" basis-1/4 flex-1 " >
-            {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
               <h3 className="text-center " >Project 4</h3>
             </div>
           </div>
 
-          
+
           <div className=" basis-1/4 flex-1 " >
-            {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
               <h3 className="text-center " >Project 5</h3>
             </div>
           </div>
-          
+
           <div className=" basis-1/4 flex-1 " >
-            {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
               <h3 className="text-center " >Project 6</h3>
             </div>
           </div>
+           */}
         </div>
       </section>
     </main>
