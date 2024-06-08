@@ -11,11 +11,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <script type="text/javascript">
+        var sc_project=13006461;
+        var sc_invisible=1;
+        var sc_security="3ab8d0c3";
+      </script>
+
+      <script type="text/javascript"
+        src="https://www.statcounter.com/counter/counter.js"
+        async>
+
+      </script>
+
       <head>
         <title>CSU Physics</title>
       </head>
       <body className={inter.className}>{children}</body>
-      
+
     </html>
   );
 }
