@@ -1,11 +1,11 @@
 import Image from "next/image";
 import photo from "./photo.png"
-// import StatCounter from 'statcounter'
+import StatCounter from 'statcounter'
 import photo1 from "./Binding_energy_calculator.jpeg"
 export default function Home() {
   return (
     <main className=" bg-white px-10 md:px-20 lg:px-40">
-      {/* <StatCounter sc_project={13006461} sc_security="3ab8d0c3" /> */}
+      <StatCounter sc_project={13006461} sc_security="3ab8d0c3" />
       <section className="">
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className=" text-xl" >CSU-Physics</h1>
