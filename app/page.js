@@ -20,7 +20,7 @@ export default function Home() {
           </ul>
         </nav>
         <div className="text-center p-10" >
-          <h2 className="text-5xl py-2 text-[#6f263d] font-medium  md:text-6xl" >Central State University</h2>
+          {/* <h2 className="text-5xl py-2 text-[#6f263d] font-medium  md:text-6xl" >Central State University</h2> */}
           <div className=" relative mx-auto  w-80 h-60 mt-4 overflow-hidde md:h-96 md:w-96" >
             <Image src={photo} layout="" objectFit="" />
           </div>
