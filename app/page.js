@@ -28,7 +28,7 @@ export default function Home() {
           <p className=" text-md py-2 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto" >
             Welcome to the Computational Physics Interactive Projects Portal at Central State University!
             This platform showcases a diverse range of projects that demonstrate the innovative applications of computational physics.
-            <br/>Each project is designed to be interactive, serving both educational purposes and enhancing public knowledge.
+            <br />Each project is designed to be interactive, serving both educational purposes and enhancing public knowledge.
             For more detailed information and to engage with these interactive projects, please click on the name of each project listed below.
             Explore, learn, and discover the exciting world of computational physics with us at Central State University!
           </p>
@@ -50,10 +50,12 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap" >
           <div className=" basis-1/4 flex-1 " >
-            {/* <Image src={} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
-            <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-              {/* <Image src={photo1} className=" " /> */}
-              <a href="https://csu-physics.github.io/binding-energy/" target="new" className="text-center " >Nuclear Binding Energy Calculator</a>
+            {/* <Image src={photo1} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
+            <div className="flex flex-col justify-center items-center bg-white h-[380px] w-full border-black rounded-md border-2" >
+              <a href="https://csu-physics.github.io/binding-energy/" target="new" className="text-center" >
+                <Image src={photo1} className=" w-44 h-35 my-4 rounded-xl mx-auto" />
+                <h1>Nuclear Binding Energy Calculator</h1>
+              </a>
             </div>
           </div>
 
