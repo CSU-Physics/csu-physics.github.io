@@ -1,5 +1,6 @@
 import Image from "next/image";
 import photo from "./photo.png"
+import photo_1 from "./Convection-Diffusion.jpg"
 // import StatCounter from 'statcounter'
 import photo1 from "./Binding_energy_calculator.jpeg"
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <main className=" bg-white px-10 md:px-20 lg:px-40">
       {/* <StatCounter sc_project={13006461} sc_security="3ab8d0c3" /> */}
       <section className="">
-        <nav className="py-10 mb-12 flex justify-between">
+        <nav className="py-10 mb-4 flex justify-between">
           <h1 className=" text-xl" >CSU-Physics</h1>
           <ul className="flex items-center">
             <li></li>
@@ -21,7 +22,7 @@ export default function Home() {
         </nav>
         <div className="text-center p-10" >
           {/* <h2 className="text-5xl py-2 text-[#6f263d] font-medium  md:text-6xl" >Central State University</h2> */}
-          <div className=" relative mx-auto  w-80 h-60 mt-4 overflow-hidde md:h-96 md:w-96" >
+          <div className=" relative mx-auto  w-80 h-60 mt-0 overflow-hidden md:h-96 md:w-96" >
             <Image src={photo} layout="" objectFit="" />
           </div>
           <h3 className="text-2xl py-2 md:text-3xl" >Computational Physics Projects</h3>
@@ -63,7 +64,8 @@ export default function Home() {
             <div className="bg-white h-[380px] w-full" >
               <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
                 <a href="https://csu-physics.github.io/Transport-Equation/" target="new" className="text-center text-pretty" >
-                  Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.Z
+                  <Image src={photo_1} className=" w-44 h-35 my-4 rounded-xl mx-auto" />
+                  Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.
                 </a>
                 {/* <h3 className="text-center text-pretty  " >Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.</h3> */}
               </div>
