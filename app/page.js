@@ -62,7 +62,7 @@ export default function Home() {
           <div className=" basis-1/4 flex-1 " >
             <div className="bg-white h-[380px] w-full" >
               <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-                <a href="https://csu-physics.github.io/numerical-simulations-of-convection-diffusion-equation/" target="new" className="text-center text-pretty" >
+                <a href="https://csu-physics.github.io/Transport-Equation/" target="new" className="text-center text-pretty" >
                   Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.Z
                 </a>
                 {/* <h3 className="text-center text-pretty  " >Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.</h3> */}
