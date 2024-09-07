@@ -8,8 +8,9 @@ export default function Home() {
     <main className=" bg-white px-10 md:px-20 lg:px-40">
       {/* <StatCounter sc_project={13006461} sc_security="3ab8d0c3" /> */}
       <section className="">
-        <nav className="py-10 mb-4 flex justify-between">
-          <h1 className=" text-xl" >CSU-Physics</h1>
+        <nav className="py-10 mb-4 flex justify-between items-start">
+          {/* <h1 className=" text-xl" >CSU-Physics</h1> */}
+          <Image src={photo} layout="" objectFit=""  className="h-22 w-40" />
           <ul className="flex items-center">
             <li></li>
             {/* <li>
@@ -22,9 +23,10 @@ export default function Home() {
         </nav>
         <div className="text-center p-10" >
           {/* <h2 className="text-5xl py-2 text-[#6f263d] font-medium  md:text-6xl" >Central State University</h2> */}
-          <div className=" relative mx-auto  w-80 h-60 mt-0 overflow-hidden md:h-96 md:w-96" >
-            <Image src={photo} layout="" objectFit="" />
-          </div>
+          {/* <div className=" relative mx-90  w-80 h-60 mt-0 overflow-hidden md:h-96 md:w-96" >
+            
+          </div> */}
+          {/* <Image src={photo} layout="" objectFit="" /> */}
           <h3 className="text-2xl py-2 md:text-3xl" >Computational Physics Projects</h3>
           <p className=" text-md py-2 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto" >
             Welcome to the Computational Physics Interactive Projects Portal at Central State University!
@@ -52,7 +54,7 @@ export default function Home() {
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap" >
           <div className=" basis-1/4 flex-1 " >
             {/* <Image src={photo1} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
-            <div className="flex flex-col justify-center items-center bg-white h-[380px] w-full border-black rounded-md border-2" >
+            <div className="flex flex-col justify-center  bg-white h-[380px] w-full border-black rounded-md border-2" >
               <a href="https://csu-physics.github.io/binding-energy/" target="new" className="text-center" >
                 <Image src={photo1} className=" w-44 h-35 my-4 rounded-xl mx-auto" />
                 <h1>Nuclear Binding Energy Calculator</h1>
