@@ -55,7 +55,7 @@ export default function Home() {
           <div className=" basis-1/4 flex-1 " >
             {/* <Image src={photo1} className=" rounded-lg object-cover" width={'100%'} height={"100%"} layout=" responsive"/>/ */}
             <div className="flex flex-col justify-center  bg-white h-[380px] w-full border-black rounded-md border-2" >
-              <a href="https://csu-physics.github.io/binding-energy/" target="new" className="text-center" >
+              <a href="https://csu-physics.github.io/binding-energy/" target="_blank" className="text-center" >
                 <Image src={photo1} className=" w-44 h-35 my-4 rounded-xl mx-auto" />
                 <h1>Nuclear Binding Energy Calculator</h1>
               </a>
@@ -65,7 +65,7 @@ export default function Home() {
           <div className=" basis-1/4 flex-1 " >
             <div className="bg-white h-[380px] w-full" >
               <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
-                <a href="https://csu-physics.github.io/Transport-Equation/" target="new" className="text-center text-pretty" >
+                <a href="https://csu-physics.github.io/Transport-Equation/" target="_blank" className="text-center text-pretty" >
                   <Image src={photo_1} className=" w-44 h-35 my-4 rounded-xl mx-auto" />
                   Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.
                 </a>
