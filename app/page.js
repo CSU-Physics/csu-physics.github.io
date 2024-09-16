@@ -1,6 +1,7 @@
 import Image from "next/image";
 import photo from "./photo.png"
 import photo_1 from "./Convection-Diffusion.jpg"
+import header from "./header.jpeg"
 // import StatCounter from 'statcounter'
 import photo1 from "./Binding_energy_calculator.jpeg"
 export default function Home() {
@@ -8,9 +9,9 @@ export default function Home() {
     <main className=" bg-white px-10 md:px-20 lg:px-40">
       {/* <StatCounter sc_project={13006461} sc_security="3ab8d0c3" /> */}
       <section className="">
-        <nav className="py-10 mb-4 flex justify-between items-start">
+        <nav className="py-6 mb-4 flex justify-between items-start">
           {/* <h1 className=" text-xl" >CSU-Physics</h1> */}
-          <Image src={photo} layout="" objectFit=""  className="h-22 w-40" />
+          <Image src={photo} layout="" objectFit="" className="h-22 w-40" />
           <ul className="flex items-center">
             <li></li>
             {/* <li>
@@ -21,12 +22,14 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className="text-center p-10" >
+        <div className="text-center p-10 py-0" >
           {/* <h2 className="text-5xl py-2 text-[#6f263d] font-medium  md:text-6xl" >Central State University</h2> */}
           {/* <div className=" relative mx-90  w-80 h-60 mt-0 overflow-hidden md:h-96 md:w-96" >
             
           </div> */}
           {/* <Image src={photo} layout="" objectFit="" /> */}
+          <Image src={header} className=" my-6" />
+
           <h3 className="text-2xl py-2 md:text-3xl" >Computational Physics Projects</h3>
           <p className=" text-md py-2 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto" >
             Welcome to the Computational Physics Interactive Projects Portal at Central State University!
