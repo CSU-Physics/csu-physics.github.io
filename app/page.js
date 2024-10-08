@@ -34,9 +34,6 @@ export default function Home() {
           <p className=" text-md py-2 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto" >
             Welcome to the Computational Physics Interactive Projects Portal at Central State University!
             This platform showcases a diverse range of projects that demonstrate the innovative applications of computational physics.
-            <br />Each project is designed to be interactive, serving both educational purposes and enhancing public knowledge.
-            For more detailed information and to engage with these interactive projects, please click on the name of each project listed below.
-            Explore, learn, and discover the exciting world of computational physics with us at Central State University!
           </p>
         </div>
 
@@ -46,12 +43,9 @@ export default function Home() {
         <div>
           <h3 className="text-3xl py-1" >Projects</h3>
           <p className="text-md py-2 leading-0 text-gray-800 " >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-            nihil, eveniet aliquid culpa officia aut!
+            Each project is designed to be interactive, serving both educational purposes and enhancing public knowledge.
+            For more detailed information and to engage with these interactive projects, please click on the name of each project listed below.
+            Explore, learn, and discover the exciting world of computational physics with us at Central State University!
           </p>
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap" >
