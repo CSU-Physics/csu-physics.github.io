@@ -1,6 +1,7 @@
 import Image from "next/image";
 import photo from "./photo.png"
 import photo_1 from "./Convection-Diffusion.jpg"
+import photo_2 from "./2B_2D.jpg"
 import header from "./header.jpeg"
 // import StatCounter from 'statcounter'
 import photo1 from "./Binding_energy_calculator.jpeg"
@@ -70,12 +71,35 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
+
+          <div className=" basis-1/4 flex-1 " >
+            <div className="bg-white h-[380px] w-full" >
+              <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
+                <a href="https://csu-physics.github.io/2B_2D/" target="_blank" className="text-center text-pretty" >
+                  <Image src={photo_2} className=" w-44 h-35 my-4 rounded-xl mx-auto" />
+                  Quantum Two-Body Bound States in Two Dimensions: Analytical and Numerical Perspectives
+                  </a>
+                {/* <h3 className="text-center text-pretty  " >Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D.</h3> */}
+              </div>
+            </div>
+          </div>
+
+
+
+
+
           {/* s */}
           {/* <div className=" flex flex-row justify-center w-full h-full bg-red-500 " >
               <h1 className=" text-white" >Footer</h1>
           </div> */}
           {/* Nuclear Binding Energy Calculator
 Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D. */}
+
+
+
+
 
           {/* <div className=" basis-1/4 flex-1 " >
             <div className="flex flex-col justify-center bg-white h-[380px] w-full border-black rounded-md border-2" >
@@ -105,7 +129,7 @@ Numerical Simulations of Convection-Diffusion Equation in 1D, 2D, and 3D. */}
            */}
         </div>
       </section>
-    </main>
+    </main >
   );
 }
 
